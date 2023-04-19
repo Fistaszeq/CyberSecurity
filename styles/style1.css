@@ -1,0 +1,97 @@
+body , html {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: url("../2c13d550432402f471a38724eda5c425.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1em;
+}
+.title {
+    text-shadow: 0.5em 0.5em rgb(36, 36, 36);
+    font-size: 45px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 1em;
+    padding: 1em 0;
+    width: 90%;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.text::first-letter {
+    margin-left: 2em;
+}
+
+#menu {
+    padding: 1em;
+    color: white;   
+}
+
+#menu a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(145, 72, 213);
+    border-radius: 0.2em;
+    padding: 0.1em;
+    margin: 0 0.2em;
+}
+
+#menu a:hover {
+    background-color: rgb(209, 167, 248);
+
+}
+
+#wad {
+    width: 15em;
+    background-color: blueviolet;
+}
+
+#high {
+    width: 15%;
+    height: 100%;
+    background-color: cyan  ;
+}
+ul li .text {
+    list-style-type: disc;
+}
+
+#body {
+    width: 100%;
+    height: 70em;
+}
+.part {
+    float: left;
+    width: 35em;
+    height: 90%;
+    background-color: rgb(15, 15, 15);
+    padding: 1em 0;
+    border-radius: 1em;
+}
+
+.text::first-letter {
+    border-left: 1em solid blueviolet;
+}
+
+.part1 {
+    float: right;
+    width: 50%;
+    height: 70%;
+    border-radius: 1em;
+   
+}
+
+.img {
+    width: 30em;
+}
